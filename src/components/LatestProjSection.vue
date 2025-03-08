@@ -63,7 +63,7 @@ const Projects = ref([
     {
         id: 1,
         category: 'web development',
-        image: 'src/assets/project.png',
+        image: 'https://ik.imagekit.io/vtroph5l9/Product/Dina_4.png?updatedAt=1739558185492',
         title: 'project 1',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
         technologies: ['vue.js 3', 'vuex', 'Express'],

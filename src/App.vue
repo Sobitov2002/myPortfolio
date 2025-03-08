@@ -10,9 +10,11 @@
             <ServicesSection />
             <AboutSection />
             <ExperienceAndSkills />
+            <Swipper />
+            <Certificate />
             <LatestProjSection />
             <ContactSection />
-            <TestimonialsSection />
+            <!-- <TestimonialsSection /> -->
             <Footer />
             <BackToTop />
       </div>
@@ -38,8 +40,11 @@ const LatestProjSection = defineAsyncComponent(()=>import('@/components/LatestPr
 const ExperienceAndSkills = defineAsyncComponent(()=>import('@/components/ExperienceAndSkills.vue'));
 const ContactSection = defineAsyncComponent(()=>import('@/components/ContactSection.vue'));
 const Footer = defineAsyncComponent(()=>import('@/components/Footer.vue'));
+const Swipper = defineAsyncComponent(()=>import('@/components/Swipper.vue'));
 const BackToTop = defineAsyncComponent(()=>import('@/components/BackToTop.vue'));
+const Certificate = defineAsyncComponent(()=>import('@/components/Certificate.vue'));
 import loadingSpinner from './components/loadingSpinner.vue';
+
 </script>
 <style>
 

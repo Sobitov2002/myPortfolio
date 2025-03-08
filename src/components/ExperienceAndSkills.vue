@@ -50,38 +50,54 @@ import { ref } from 'vue';
 const Skills =ref([
     {
         id:1,
-        name:'HTmL & CSS',
+        name:'VueJs',
         width:'85%'
     },
     {
         id:2,
         name:'Python',
-        width:'70%'
+        width:'20%'
     },
     {
         id:3,
-        name:'JavaScript',
-        width:'98%'
+        name:'JavaScript/TypeScript',
+        width:'70%'
     },
     {
-        id:4,
-        name:'figma',
-        width:'91%'
+        id: 4,
+        name: 'linux',
+        width: '50%'
     },
+    {
+        id: 5,
+        name: 'figma/photoshop',
+        width: '91%'
+    }, {
+        id: 5,
+        name: 'korean language // topik 3',
+        width: '45%'
+    },
+    
 ]);
 
 const Experinces =ref([
     {
         id:1,
-        role:'Software Engineer',
-        company:'Microsoft',
-        date:'Mar 2023 - September 2024'
+        role:'Software Engineer & TECHNICAL SUPPORT ENGINEER',
+        company:'',
+        date:''
     },
     {
         id:2,
         role:'Frontend Developer',
-        company:'Spotify',
-        date:'Mar 2022 - September 2023'
+        company:'',
+        date:''
     },
+    {
+        id:3,
+        role:'GRAPHIC DESIGNER & CONTENT MANAGER',
+        company:'',
+        date:''
+    }
 ])
 </script>
