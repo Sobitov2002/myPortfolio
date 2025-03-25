@@ -4,7 +4,7 @@
             <div class="mb-4 md:flex md:justify-between xl:pr-16">
                 <h2 class="text-4xl font-bold text-white"> My Latest Projects</h2>
                 <div class="flex space-x-4 mb-4 mt-5 md:mt-0">
-                    <button class="hover:text-primary" v-for="category in ['all', 'web development', 'Mobile App']"
+                    <button class="hover:text-primary" v-for="category in ['All']"
                         :key="category" @click="() => selectedCategory = category">
                         {{ category }}
                     </button>
@@ -62,64 +62,26 @@ import { ref, computed } from 'vue';
 const Projects = ref([
     {
         id: 1,
-        category: 'web development',
-        image: 'https://ik.imagekit.io/vtroph5l9/Product/Dina_4.png?updatedAt=1739558185492',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
+        category: 'Dinakorean Academy',
+        image: 'https://ik.imagekit.io/vtroph5l9/Product/photo_2025-03-13_20-57-10.jpg?updatedAt=1741881452111',
+        title: 'Dinakorean Academy',
+        description: '**DinaKorean Academy** is the only online platform in Uzbekistan for learning the Korean language, offering education through Telegram video chats. The platform:  - Provides courses from beginner to advanced levels - Implements a tracking system for assignments and tests.  - Offers convenient management and technical support for teachers.  - Focuses on academic and daily conversations through interactive lessons.  The platform aims to enhance education quality by integrating innovative technologies and artificial intelligence.',
+        technologies: ['vue.js 3', 'Pinia', 'NodeJs', 'TailwindCss'],
+        gitURL: 'https://dinakorean.uz',
+         webURL: 'https://dinakorean.uz'
     },
     {
         id: 2,
-        category: 'Mobile App',
-        image: 'src/assets/mobile.jpg',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
+        category: 'Iteach Academy Dashboard',
+        image: 'https://ik.imagekit.io/vtroph5l9/Product/image.png?updatedAt=1742932492152',
+        title: 'Iteach Academy Dashboard',
+        description: 'ITeach Academy is a programming education center with a centralized management website. The platform: Offers coding courses for different levels. Provides a structured learning system with assignments and progress tracking.Supports both students and instructors with an organized management system.Aims to make programming education accessible and efficient.It serves as a hub for managing courses, student progress, and overall academy operations.',
+        technologies: ['vue.js 3', 'vuex', 'FastApi'],
+        gitURL: 'https://itechacademy.netlify.app/#/dashboard',
+        webURL: 'https://itechacademy.netlify.app/#/dashboard'
     },
-    {
-        id: 3,
-        category: 'web development',
-        image: 'src/assets/project.png',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
-    },
-    {
-        id: 4,
-        category: 'Mobile App',
-        image: 'src/assets/mobile.jpg',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
-    },
-    {
-        id: 5,
-        category: 'web development',
-        image: 'src/assets/project.png',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
-    },
-    {
-        id: 6,
-        category: 'Mobile App',
-        image: 'src/assets/mobile.jpg',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
-    }
+ 
+  
 ]);
 
 const selectedCategory = ref('all');
